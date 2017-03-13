@@ -20,6 +20,15 @@ article {
 	margin: 0 auto;
 }
 ul.topnav li a:hover {background-color: Salmon;}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 36px;
+	}
+	li {
+		display: block;
+		padding: 5px;
+	}
+ }
 h1 {
 	text-align: center;	
 	font-family: Papyrus, Arial;
@@ -43,6 +52,17 @@ h2 {
 	font-weight: 600;
 	}
 h3 {
+	text-align: center;
+	font-family: Verdana;
+	color: gray;
+	font-size: 1em;
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-weight: 600;
+	}
+h4 {
 	text-align: center;
 	font-family: Verdana;
 	color: gray;
@@ -80,3 +100,4 @@ p {
 	margin-top: auto;
 	font-weight: 600;
 	}
+
